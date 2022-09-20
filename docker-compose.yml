@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  modmailbot:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes: 
+      - db-data:/usr/modmailbot/db
+      - logs:/usr/modmailbot/logs
+      - attachments:/usr/modmailbot/attachments
+    restart: unless-stopped
+    env_file:
+      - ./.env
+    ports:
+      - ${MM_PORT:-8890}:${MM_PORT:-8890}
+
+volumes:
+  db-data:
+  logs:
+  attachments:

@@ -6,5 +6,5 @@
 
 # Config files
 /config.*
-*.config.ini
-!/config.example.ini
+/.env
+!/.env.example
