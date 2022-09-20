@@ -1,6 +1,6 @@
 FROM node:16-alpine
 LABEL name "modmailbot"
-LABEL version "3.2.0"
+LABEL version "3.6.1"
 
 WORKDIR /usr/modmailbot
 
