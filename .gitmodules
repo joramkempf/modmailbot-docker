@@ -25,3 +25,6 @@
 [submodule "plugins/modmailbot-formatter"]
 	path = plugins/modmailbot-formatter
 	url = https://github.com/funkyhippo/modmailbot-formatter.git
+[submodule "plugins/Ping"]
+	path = plugins/Ping
+	url = https://github.com/MMPlugins/Ping.git
