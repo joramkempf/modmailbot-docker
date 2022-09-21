@@ -3,15 +3,10 @@ LABEL name "modmailbot"
 LABEL version "3.6.1"
 
 WORKDIR /usr/modmailbot
-
-COPY package.json package-lock.json ./
+COPY / ./
 RUN npm ci --production
 
-RUN mkdir ./db \
-  && mkdir ./logs \
-  && mkdir ./attachments
-
-COPY src ./src
-COPY knexfile.js ./knexfile.js
+# Fix Plugin Error by installing npm dependencies
+RUN cd plugins/modmailbot-formatter && npm i && npm audit fix
 
 CMD ["npm", "start"]
