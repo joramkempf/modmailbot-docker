@@ -29,3 +29,6 @@
 	path = plugins/ReactionThreads
 	url = https://github.com/joramkempf/ReactionThreads.git
 	branch = env
+[submodule "plugins/mmplugin-indexpage"]
+	path = plugins/mmplugin-indexpage
+	url = https://github.com/joramkempf/mmplugin-indexpage.git
