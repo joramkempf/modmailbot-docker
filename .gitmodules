@@ -25,3 +25,7 @@
 [submodule "plugins/Ping"]
 	path = plugins/Ping
 	url = https://github.com/MMPlugins/Ping.git
+[submodule "plugins/ReactionThreads"]
+	path = plugins/ReactionThreads
+	url = https://github.com/joramkempf/ReactionThreads.git
+	branch = env
