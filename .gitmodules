@@ -13,9 +13,6 @@
 [submodule "plugins/LogSearch"]
 	path = plugins/LogSearch
 	url = https://github.com/MMPlugins/LogSearch.git
-[submodule "plugins/ReactionThreads"]
-	path = plugins/ReactionThreads
-	url = https://github.com/MMPlugins/ReactionThreads.git
 [submodule "plugins/replyPrefix"]
 	path = plugins/replyPrefix
 	url = https://github.com/MMPlugins/replyPrefix.git
