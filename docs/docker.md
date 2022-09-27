@@ -30,3 +30,22 @@ services:
 volumes:
   data:
 ```
+
+```
+#.env
+MM_TOKEN=
+MM_MAIN_SERVER_ID=
+MM_INBOX_SERVER_ID=
+MM_LOG_CHANNEL_ID=
+MM_PREFIX=
+MM_INBOX_SERVER_PERMISSION=
+MM_STATUS=
+MM_PORT=
+MM_URL=http://127.0.0.1:
+MM_PLUGINS=./plugins/CloseAddons/index.js||./plugins/EmbedMessages/embedMessages.js||./plugins/Help/index.js||./plugins/HexedHelp/help.js||./plugins/LogSearch/logsearch.js||./plugins/MMEmergencyLink/emergencyLink.js||./plugins/modmailbot-formatter/index.js||./plugins/Ping/ping.js||./plugins/ReactionThreads/reactionThreads.js||./plugins/replyPrefix/replyPrefix.js
+MM_REACTION_THREADS_OWNER_ID=
+```
+
+```
+docker-compose up -d
+```
